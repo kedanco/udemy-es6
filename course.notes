@@ -1,0 +1,12 @@
+
+ES6 Udemy Course Notes
+=======================
+
+
+
+Babel is a Transpiler
+-> It converts updated ES6 code into pre-ES6 JS code that older browsers understand
+
+Webpack is a bundler for modules
+-> bundles modules into one .js file
+-> comes with dev server
