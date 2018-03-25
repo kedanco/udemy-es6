@@ -2,11 +2,23 @@
 ES6 Udemy Course Notes
 =======================
 
-
-
 Babel is a Transpiler
+-> A transpiler reads code written in one language and produces the equivalent code in another
 -> It converts updated ES6 code into pre-ES6 JS code that older browsers understand
 
 Webpack is a bundler for modules
--> bundles modules into one .js file
--> comes with dev server
+-> bundles modules into one .js file (reduce errors & resources)
+-> comes with dev server (live code updating)
+
+{} Block scoping binds variable declaration to blocks of code. (Can be stand-alone block without function syntax/name)
+
+`let` keyword replaces `var`
+
+`const` keyword creates an immutable binding.
+A variable declared with const cannot be re-assigned or re-declared. But,
+``` const a = [1,2];
+    a.push(4); ```
+this works, because you are adding to the list of references, and you are not re-assigning or re-declaring the value.
+the variable a is a reference to the array, and you are changing the value of the array not the variable.
+
+'`' backticks allow you to use template literals - using variables in strings with ${}

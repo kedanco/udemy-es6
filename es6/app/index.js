@@ -1,1 +1,9 @@
-console.log("Hello World! (From webpack) automatic update");
+let a = 'hello';
+
+console.log(a);
+
+
+{
+  let salary = 45678;
+  console.log('a inside scope', salary);
+}
