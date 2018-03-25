@@ -22,3 +22,8 @@ this works, because you are adding to the list of references, and you are not re
 the variable a is a reference to the array, and you are changing the value of the array not the variable.
 
 '`' backticks allow you to use template literals - using variables in strings with ${}
+
+`...` spread operator
+
+Modules -> reusbable pieces of code that allows us to spread data and code over relevant files.
+default export -> fallback or 'main' value/function for module
