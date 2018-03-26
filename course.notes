@@ -27,3 +27,18 @@ the variable a is a reference to the array, and you are changing the value of th
 
 Modules -> reusbable pieces of code that allows us to spread data and code over relevant files.
 default export -> fallback or 'main' value/function for module
+
+
+OOP - Object-Oriented Programming
+Entity: Living things in Middle-Earth
+Hobbit inherits from Entity, getting any properties that Entity Object have.
+
+
+Extending ES6 with React
+-> JSX adds XML syntax to JS and allows for rendering elements and components into a web application
+-> A promise handles the eventual result of an operation and determines if it returns a success or failure
+
+Final Notes:
+- Learned how to install, config, build and run a basic web app with babel and webpack
+- Learned additional ES6 operators, along with their pitfalls and common usage
+- More to learn and practise for ES6 operators, and OOP usage in real-world applications
